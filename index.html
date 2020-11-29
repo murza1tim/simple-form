@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
     <!-- form -->
@@ -11,8 +12,22 @@
     <!-- email -->
     <!-- password -->
     <!-- confirm password -->
+   <div class="wrapper">
     <form action="" method="post">
-        
+        <h1>login</h1> 	
     </form>
+    <form action="handler.php">
+        <p><strong>username:</strong> 
+         <input maxlength="25" size="40" name="login"></p>
+         <p><strong>email:</strong> 
+            <input type="password" maxlength="25" size="40" name="password"></p>
+        <p><strong>password:</strong> 
+         <input type="password" maxlength="25" size="40" name="password"></p>
+         <p><strong>confirm password:</strong> 
+            <input type="password" maxlength="25" size="40" name="password"></p>
+        <p><input type="submit" value="Войти"></p>
+       </form>
+   </div>
 </body>
+
 </html>
