@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Form</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-    <!-- form -->
-    <!-- username -->
-    <!-- email -->
-    <!-- password -->
-    <!-- confirm password -->
-    <form action="" method="post">
-        
-    </form>
+    <div class="wrapper">
+        <form class="login-form" action="" method="post">
+            <h1>login</h1> 
+            <p>
+                <strong>username:</strong> 
+                <input maxlength="25" size="44" name="login">
+            </p>
+            <p>
+                <strong>email:</strong> 
+                <input type="password" maxlength="25" size="48" name="password">
+            </p>
+            <p>
+                <strong>password:</strong> 
+                <input type="password" maxlength="25" size="44" name="password">
+            </p>
+            <p>
+                <strong>confirm password:</strong> 
+                <input type="password" maxlength="25" size="36" name="password">
+            </p>
+            <input type="submit" value="Войти">
+        </form>
+    </div>
 </body>
+
 </html>
